@@ -1,0 +1,20 @@
+{
+  "name": "e-books",
+  "version": "1.0.0",
+  "description": "E-books library",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./dist/tailwindcss/main.css -o ./css/main.css",
+    "tailwind_watch": "npx tailwindcss -i ./dist/tailwindcss/main.css -o ./css/main.css --watch"
+  },
+  "keywords": [
+    "Book library",
+    "E books",
+    "library"
+  ],
+  "author": "Shahadat Hossain",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
